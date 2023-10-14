@@ -1,11 +1,11 @@
-# android_device_xiaomi_whyred
+# android_device_xiaomi_tulip
 For building TWRP for Xiaomi Redmi Note 5 Pro ONLY
 
 To compile
 
-. build/envsetup.sh && lunch omni_whyred-eng && make -j8 recoveryimage
+. build/envsetup.sh && lunch omni_tulip-eng && make -j8 recoveryimage
 
-The Redmi Note 5 Pro (codenamed _"whyred"_) are high-end mid-range smartphones from Xiaomi.
+The Redmi Note 5 Pro (codenamed _"tulip"_) are high-end mid-range smartphones from Xiaomi.
 
 Xiaomi Redmi Note 5 Pro was announced and released in February 2018.
 

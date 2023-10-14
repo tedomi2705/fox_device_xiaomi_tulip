@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := whyred
+PRODUCT_RELEASE_NAME := tulip
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -25,8 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := whyred
-PRODUCT_NAME := twrp_whyred
+PRODUCT_DEVICE := tulip
+PRODUCT_NAME := twrp_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Redmi Note 5 Pro
 PRODUCT_MANUFACTURER := Xiaomi
@@ -40,4 +40,4 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.hardware.gatekeeper=sdm660
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/xiaomi/whyred/device.mk)
+$(call inherit-product, device/xiaomi/tulip/device.mk)
